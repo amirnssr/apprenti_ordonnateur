@@ -1,0 +1,37 @@
+/* Applique une police de caractères et une couleur de base à la racine de l'application */
+.root {
+    -fx-font-family: 'Arial';
+    -fx-base: #202020;
+}
+
+/* Style pour les boutons */
+.button {
+    /* Définition de la couleur de fond avec un dégradé de bleu à violet */
+    -fx-background-color: linear-gradient(blue, blueviolet);
+    /* Couleur du texte en blanc */
+    -fx-text-fill: white;
+    /* Texte en gras */
+    -fx-font-weight: bold;
+    /* Padding (espacement intérieur) */
+    -fx-padding: 8px 15px;
+    /* Coins arrondis pour les bordures */
+    -fx-border-radius: 5px;
+    /* Coins arrondis pour l'arrière-plan */
+    -fx-background-radius: 5px;
+    /* Effet d'ombre portée pour donner du relief */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+/* Style pour les labels (étiquettes de texte) */
+.label {
+    /* Couleur du texte */
+    -fx-text-fill: #E8E8E8;
+    /* Taille de la police */
+    -fx-font-size: 16px;
+}
+
+/* Style pour les barres de défilement */
+.scroll-bar {
+    /* Couleur de fond des barres de défilement */
+    -fx-background-color: #f0f0f0;
+}

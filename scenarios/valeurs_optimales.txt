@@ -1,0 +1,7 @@
+numéro scénario: valeur optimale
+0 : 26
+1 : 44
+2 : 88
+3 : 81
+4 : 86
+5 : 116
